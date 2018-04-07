@@ -1,0 +1,31 @@
+{
+  "name": "dndbot",
+  "version": "1.0.0",
+  "description": "DNDBot For twitch.tv",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VideoGameRoulette/DNDBot.git"
+  },
+  "keywords": [
+    "DND",
+    "Twitch",
+    "Bot"
+  ],
+  "author": "Christopher Couture (VideoGameRoulette)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VideoGameRoulette/DNDBot/issues"
+  },
+  "homepage": "https://github.com/VideoGameRoulette/DNDBot#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "jquery": "*",
+    "jsdom": "^11.7.0"
+  }
+}

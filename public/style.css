@@ -1,0 +1,167 @@
+body {
+  background: black;
+}
+
+.container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width:500px;
+  height:60px;
+  background: rgba(102,51,102,0.6);
+  border: rgba(255,147,252,1) 3px solid;
+  border-radius: 5px 20px;
+  box-shadow: 
+    -5px -5px 0 0 rgba(255,255,255,0.2),
+    5px 5px 0 0 rgba(255,255,255,0.2);
+}
+
+.avatar-container {
+}
+
+#avatar {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.username-info {
+  position: absolute;
+  color: white;
+  width: 440px;
+  height: 60px;
+  top: 0px;
+  left: 60px;
+  font-family: teko;
+  font-size: 20px;
+}
+
+#username {
+  position:absolute;
+  color: #FF93FC;
+  top: 5px;
+  left: 5px;
+}
+
+#level {
+  position:absolute;
+  color: #FF93FC;
+  top: 5px;
+  right: 6px;
+}
+
+#current-level {
+  color: white;
+}
+
+#hp-bar {
+  position: absolute;
+  width: 432px;
+  height: 12px;
+  top: 24px;
+  left: 4px;
+  border: white 1px solid;
+  border-radius: 180px 180px;
+  z-index: 1;
+}
+
+#health {
+  position: absolute;
+  width: 430px;
+  height: 10px;
+  top: 26px;
+  left: 6px;
+  background: green;
+  z-index: 0;
+}
+
+#hp {
+  position:absolute;
+  bottom: 1px;
+  right: 6px;
+}
+
+.container2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width:500px;
+  height:60px;
+  background: rgba(102,51,102,0.6);
+  border: rgba(255,147,252,1) 3px solid;
+  border-radius: 20px 5px;
+  box-shadow: 
+    5px -5px 0 0 rgba(255,255,255,0.2),
+    -5px 5px 0 0 rgba(255,255,255,0.2);
+}
+
+.avatar-container2 {
+}
+
+#avatar2 {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.username-info2 {
+  position: absolute;
+  color: white;
+  width: 440px;
+  height: 60px;
+  top: 0px;
+  right: 60px;
+  font-family: teko;
+  font-size: 20px;
+}
+
+#username2 {
+  position:absolute;
+  color: #FF93FC;
+  top: 5px;
+  right: 5px;
+}
+
+#level2 {
+  position:absolute;
+  color: #FF93FC;
+  top: 5px;
+  left: 6px;
+}
+
+#current-level2 {
+  color: white;
+}
+
+#hp-bar2 {
+  position: absolute;
+  width: 432px;
+  height: 12px;
+  top: 24px;
+  right: 4px;
+  border: white 1px solid;
+  border-radius: 180px 180px;
+  z-index: 1;
+}
+
+#health2 {
+  position: absolute;
+  width: 430px;
+  height: 10px;
+  top: 26px;
+  right: 6px;
+  background: green;
+  z-index: 0;
+}
+
+#hp2 {
+  position:absolute;
+  bottom: 1px;
+  left: 6px;
+}

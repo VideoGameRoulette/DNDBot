@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>DNDTwitchBot</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="avatar-container">
+    <img id="avatar" src="img/dead.png"></img>
+  </div>
+  <div class="username-info">
+    <div id="username"><%= player1 %></div>
+    <div id="level">Lv <span id="current-level"><%= p1level %></span></div>
+    <div id="hp-bar"></div>
+    <div id="health"></div>
+    <div id="hp"><span id="current"><%= p1chp %></span>/<span id="max"><%= p1mhp %></span></div>
+  </div>
+</div>
+
+<div class="container2">
+  <div class="avatar-container2">
+    <img id="avatar2" src="img/dead.png"></img>
+  </div>
+  <div class="username-info2">
+    <div id="username2"><%= player2 %></div>
+    <div id="level2">Lv <span id="current-level2"><%= p2level %></span></div>
+    <div id="hp-bar2"></div>
+    <div id="health2"></div>
+    <div id="hp2"><span id="current2"><%= p2chp %></span>/<span id="max2"><%= p2mhp %></span></div>
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+    <script  src="index.js"></script>
+</body>
+
+</html>
