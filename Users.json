@@ -1,0 +1,24 @@
+{
+  "player": {
+    "VideoGameRoulette": {
+      "name": "VideoGameRoulette",
+      "level": 2,
+      "str": 10,
+      "vit": 10,
+      "int": 10,
+      "maxhp": 100,
+      "xp": 10,
+      "tokens": 1
+    },
+    "ItsDeke": {
+      "name": "ItsDeke",
+      "level": 2,
+      "str": 10,
+      "vit": 10,
+      "int": 10,
+      "maxhp": 100,
+      "xp": 10,
+      "tokens": 1
+    }
+  }
+}
